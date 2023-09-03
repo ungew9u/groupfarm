@@ -1,0 +1,20 @@
+if getgenv().blahblahblah then
+    return
+end
+
+getgenv().blahblahblah = true
+--[[ -- message -- ]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ungew9u/msggroup/main/msggroup"))()
+
+--[[ -- misc -- ]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ungew9u/groupmisc/main/groupmisc"))()
+
+ --[[ -- farm -- ]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ungew9u/rightfarmgroup/main/rightfarmgroup"))()
+
+--[[ -- counter -- ]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ungew9u/counter/main/counter"))()
