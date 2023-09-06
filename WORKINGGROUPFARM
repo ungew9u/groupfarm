@@ -1,10 +1,6 @@
 repeat task.wait(); until game:IsLoaded();
 repeat task.wait(); until game:GetService("Workspace").Players:FindFirstChild(game:GetService("Players").LocalPlayer.Name);
-if getgenv().blahblahblah then
-    return
-end
 
-getgenv().blahblahblah = true
 --[[ -- message -- ]]--
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ungew9u/msggroup/main/msggroup"))()
